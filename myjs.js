@@ -7,4 +7,5 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     event.preventDefault();
     // Here you would typically validate the form and handle the login process
     alert('Login successful!');
+    window.location.href = 'home_page.html'; 
 });
