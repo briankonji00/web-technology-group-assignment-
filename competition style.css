@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header {
+    background-color: #336699;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #eeeeee;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #336699;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #003366;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 30px;
+}
+h2 {
+    color: #336699;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    color: #336699;
+}
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+    position: absolute;
+    top: 20px; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+}
+
+header {
+    background-color: #336699;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Make sure the header is relative to position the logo absolutely */
+}
+
+h1 {
+    margin-top: 50px; /* Adjust spacing between logo and heading */
+}
