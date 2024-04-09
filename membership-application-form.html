@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Membership Application Form</title>
+ <link rel="stylesheet" href="about page.css">
+<style>
+fieldset {
+  border: 5px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+</style>
+
+</head>
+<body>
+<header>
+       <img src="C:\Users\imran ali\Desktop\19th Hole\19thlogo.jpg" alt="19th Hole Golf Club Logo" class="logo">
+        <h1>Welcome to the 19th Hole Golf Club</h1>
+</header>    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="About page.html">About</a></</li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="golfweb.html">Sign up</a></li>
+             <li><a href="index.html">Membership</a></li>
+             <li><a href="#">Course And Slope Rating</a></li>
+
+        </ul>
+    </nav>
+
+   <div class="heading">
+
+
+	<h2 style="text-align:center;">Membership Application Form</h2>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="first-name">First Name:</label>
+			<input type="text" id="first-name" name="first-name" required>
+<br></br>
+			<label for="last-name">Last Name:</label>
+			<input type="text" id="last-name" name="last-name" required>
+<br></br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+<br></br>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+<br></br>
+		
+               </fieldset>
+
+<br></br>
+
+		<fieldset>
+			<legend>Membership Information</legend>
+			<label for="membership-type">Type of Membership:</label>
+			<select id="membership-type" name="membership-type" required>
+				<option value="full">Full/Eminent Member (Men and Ladies)</option>
+				<option value="limited">Limited Members (Men and Ladies)</option>
+				<option value="senior">Senior Members (Men and Ladies)</option>
+                                <option value="service">Service Members (Men and Ladies)</option>
+                                <option value="junior">Junior/Student Member (Men and Ladies)</option>
+                                <option value="house">House Member (Men and Ladies)</option>
+                                <option value="out">Out-of-Country Members (Men and Ladies)</option>
+                                <option value="honorary">Honorary Member (Men and Ladies)</option>
+                                <option value="life">Life Member</option>
+                                <option value="professional">Professional Golfing Membership</option>
+                                <option value="family">Family Member</option>
+                                <option value="corporate">Corporate Membership</option>
+                                <option value="pre-paid">Pre-Paid LIMITED18, LIMITED24, LIMITED32, and LIMITED48</option>
+			</select>
+<br></br>
+			<label for="corporate-name">Corporate Name (if applicable):</label>
+			<input type="text" id="corporate-name" name="corporate-name"><br>
+		</fieldset>
+<br></br>
+
+		<fieldset>
+			<legend>Payment Information</legend>
+			<label for="payment-type">Payment Type:</label>
+			<select id="payment-type" name="payment-type" required>
+				<option value="credit-card">Credit Card</option>
+				<option value="check">Check</option>
+				<option value="bank-transfer">Bank Transfer</option>
+			</select>
+<br></br>
+			<label for="card-number">Card Number:</label>
+			<input type="text" id="card-number" name="card-number" pattern="[0-9]{16}" required>
+<br></br>
+			<label for="expiration-date">Expiration Date:</label>
+			<input type="month" id="expiration-date" name="expiration-date" required>
+<br></br>
+			<label for="cvv">CVV:</label>
+			<input type="text" id="cvv" name="cvv" pattern="[0-9]{3}" required>
+<br></br>
+		</fieldset>
+
+<button onclick="myFunction()">Submit Application</button>
+<script>
+function myFunction() {
+  alert("Submission Successful!");
+}
+</script>
+
+
+		
+	</form>
+</body>
+</html>
