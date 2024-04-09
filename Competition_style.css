@@ -63,6 +63,13 @@ th {
     left: 20px; /* Adjust horizontal position */
 }
 
+.Image{
+    width: 450px; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+    position: absolute;
+
+}
+
 header {
     background-color: #336699;
     color: white;
