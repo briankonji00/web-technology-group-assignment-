@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #336699;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+	text-align:centre;
+}
+
+h1 {
+    color: #AFD6E6;
+	text-align: centre;
+    margin-bottom: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Changed justify-content to space-between to push the button to the far right */
+    align-items: center;
+    width: 100%;
+}
+
+.go-home-btn {
+    background-color: #CCE9F3; 
+    border: none;
+    color: black;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+	width:auto;
+}
+
+.logo {
+    height: 50px; /* Adjust size as needed */
+}
+
+.login-container {
+    background-color: #336699;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 100px; /* Add margin-top to create space between the header and the sign-up container */
+}
+
+h1 {
+    color: #AFD6E6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+input[type="text"], input[type="username"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #CCE9F3;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #AFD6E6;
+}
+
+a {
+    color: #73B7D3;
+    text-decoration: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
